@@ -4,7 +4,7 @@ Regular expressions are patterns that are used to match character combinations i
 
 ## Summary
 
-Briefly summarize the regex you will be describing and what you will explain. Include a code snippet of the regex. Replace this text with your summary.
+In this summary, we are going to be reviewing the components of regular expression that are used to match Hex Values.  Hexadecimal code is a system by which any specific color can be described accurately to a computer, ensuring consistency and accuracy in an electronic display. A hexadecimal color value is a six-digit code preceded by a # sign; it defines a color that is used in a website or a computer program. /^#?([a-f0-9]{6}|[a-f0-9]{3})$/
 
 ## Table of Contents
 
@@ -23,6 +23,9 @@ Briefly summarize the regex you will be describing and what you will explain. In
 ## Regex Components
 
 ### Anchors
+Anchors - ^ & $
+- Regular Expression anhcors that allow you to match a position before and after characters. Example ^ is a caret anchor matches the beginning of the text while the $ is the dollar anchor that matches the end of the text. If you were applied ^A to ABC matches A. Now using ^B does not match at all because it cannot be match right after the start of the string. Now using $ matches right after the last character in the string. Example C$ would match C in ABC scenario, while if you were use A$ or B$ it does not match at all. 
+
 
 ### Quantifiers
 
