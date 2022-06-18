@@ -1,6 +1,6 @@
-# Title (replace with your title)
+# Regex Tutorial - Understanding the Concept - Hex Value /^#?([a-f0-9]{6}|[a-f0-9]{3})$/
 
-Introductory paragraph (replace this with your text)
+Regular expressions are patterns that are used to match character combinations in strings. Regular expression is a composed of simple characters for an example /abc/ or a combination of simple and special characters such as /ab*c/ or /Chapter /d/d/d. Another way of using Regex In a regular expression the metacharacter ^ means "not". So, while "a" means "match lowercase a", "^a" means "do not match lowercase a".
 
 ## Summary
 
@@ -46,6 +46,5 @@ Briefly summarize the regex you will be describing and what you will explain. In
 
 ## Author
 
-A short section about the author with a link to the author's GitHub profile (replace with your information and a link to your profile)
-
-
+Greetings, my name is Tyler Shifflett. I am currently enrolled with coding/web development at University of Richmond to become a successful website creator and start career as Front End Develop and freelancer. 
+GitHub Link: https://github.com/TylerS175 
