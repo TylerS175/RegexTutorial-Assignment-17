@@ -30,8 +30,10 @@ Anchors - ^ & $
 Quantifiers indicate numbers of character or expressions to match. They specify how many instances of a character, group, or character class must be present in the input of a match to be found. If the ",+,?, {}" characters are found within regular expressions, they are considered quantifiers. The quantifer ? means zero or one {0,1}. A number in curly braces {n} is the simplest quantifier. As you can see we have {6} is a triplet format and {3} is shorthand format. There is two types of formats a hex triple is six digit, three-byte hexadecimal number used in HTML, CSS, and other computer application to represent colors. The shorthand hex abberivates RRGGBB CSS colors into 3-character RGB shorthand. 
 
 ### OR Operator
+The "or" operator within a regular expression is defined using the | element. It indicates it could either of the components that we are seperating with the |. ([a-f0-9]{6} |  [a-f0-9]. See how the | is seperating these 2 components. The hex value could be 6 characters is ([a-f0-9]{6} or 3 character [a-f0-9]{3}
 
 ### Character Classes
+Character classes are components within our regular expression that tells us what type of characters to expect. For instance you identified the classes with brackets []. Look at these 2 character classes that share the same value. If you breakdown the class a-f it will be known to search for letters a-f and the 0-9 class will search for the numbers 0-9 based on what it is being told. 
 
 ### Flags
 
