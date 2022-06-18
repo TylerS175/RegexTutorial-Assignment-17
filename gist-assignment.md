@@ -36,6 +36,13 @@ The "or" operator within a regular expression is defined using the | element. It
 Character classes are components within our regular expression that tells us what type of characters to expect. For instance you identified the classes with brackets []. Look at these 2 character classes that share the same value. If you breakdown the class a-f it will be known to search for letters a-f and the 0-9 class will search for the numbers 0-9 based on what it is being told. 
 
 ### Flags
+Flags affects the search in regular expressions. It is an optional parameter to a regex that modifies its behavior of searching. In javascript regex, there is a total of 6 flags, each serving a different purpose. In this case, we have a multline flag cause of the ^ & $ seen in /^#?([a-f0-9]{6}|[a-f0-9]{3})$/ 
+
+i - Ignore Casting (Makes the expression search case-insensitively)
+g - Global (Makes the expression search for all occurences)
+s - Dot All (Makes the wild character . match newlines as well)
+m - Multiline (Makes the boundary characters ^ and $ match the beginning and ending of every single line instead of the beginning and ending of the whole string. 
+
 
 ### Grouping and Capturing
 
