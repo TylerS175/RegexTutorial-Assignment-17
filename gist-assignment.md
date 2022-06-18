@@ -1,4 +1,5 @@
-# Regex Tutorial - Understanding the Concept - Hex Value /^#?([a-f0-9]{6}|[a-f0-9]{3})$/
+# Regex Tutorial - Understanding the Concept - 
+- Hex Value /^#?([a-f0-9]{6}|[a-f0-9]{3})$/
 
 Regular expressions are patterns that are used to match character combinations in strings. Regular expression is a composed of simple characters for an example /abc/ or a combination of simple and special characters such as /ab*c/ or /Chapter /d/d/d. Another way of using Regex In a regular expression the metacharacter ^ means "not". So, while "a" means "match lowercase a", "^a" means "do not match lowercase a".
 
@@ -45,8 +46,10 @@ m - Multiline (Makes the boundary characters ^ and $ match the beginning and end
 
 
 ### Grouping and Capturing
+Grouping and capturing is a way to treat multiple characters as a single unit it can be found in group set of parentheses. For example regular expression (dog) creates a single group containing the letters "d", "o", and "g". 
 
 ### Bracket Expressions
+This matches any character in the square brackets. Take for example [nN] or [oO] that can match for words such as no, No, nO, and NO. Another example is gr[ae]y that matches both spellings of the word 'grey' that is either go two different directions gray or grey
 
 ### Greedy and Lazy Match
 
