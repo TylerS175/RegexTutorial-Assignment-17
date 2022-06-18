@@ -26,8 +26,8 @@ In this summary, we are going to be reviewing the components of regular expressi
 Anchors - ^ & $
 - Regular Expression anhcors that allow you to match a position before and after characters. Example ^ is a caret anchor matches the beginning of the text while the $ is the dollar anchor that matches the end of the text. If you were applied ^A to ABC matches A. Now using ^B does not match at all because it cannot be match right after the start of the string. Now using $ matches right after the last character in the string. Example C$ would match C in ABC scenario, while if you were use A$ or B$ it does not match at all. 
 
-
 ### Quantifiers
+Quantifiers indicate numbers of character or expressions to match. They specify how many instances of a character, group, or character class must be present in the input of a match to be found. If the ",+,?, {}" characters are found within regular expressions, they are considered quantifiers. The quantifer ? means zero or one {0,1}. A number in curly braces {n} is the simplest quantifier. As you can see we have {6} is a triplet format and {3} is shorthand format. There is two types of formats a hex triple is six digit, three-byte hexadecimal number used in HTML, CSS, and other computer application to represent colors. The shorthand hex abberivates RRGGBB CSS colors into 3-character RGB shorthand. 
 
 ### OR Operator
 
