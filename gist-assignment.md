@@ -49,15 +49,24 @@ m - Multiline (Makes the boundary characters ^ and $ match the beginning and end
 Grouping and capturing is a way to treat multiple characters as a single unit it can be found in group set of parentheses. For example regular expression (dog) creates a single group containing the letters "d", "o", and "g". 
 
 ### Bracket Expressions
-This matches any character in the square brackets. Take for example [nN] or [oO] that can match for words such as no, No, nO, and NO. Another example is gr[ae]y that matches both spellings of the word 'grey' that is either go two different directions gray or grey
+This matches any character in the square brackets. Take for example [nN] or [oO] that can match for words such as no, No, nO, and NO. Another example is gr[ae]y that matches both spellings of the word 'grey' that is either go two different directions gray or grey.
 
 ### Greedy and Lazy Match
+A greedy match tries to match an elemetn as many times as possible. Now, a lazy match will try to match as few as possible. For instance, the ? is declared as lazy quantifier. It is referred as lazy quantifier because it causes the regular expression search to match as few occurences as possible. You can transform this into Greedy match by adding a ?. 
 
 ### Boundaries
+Boundaries is a zero-length. (\b) - it matches a position that is called a "word boundary".
+
+Three positions that are qualified as word boundaries:
+-Before the first character in a string if the first character is a word character.
+-After the last character in a string if the last character is a word character.
+-Between two characters in a string if one is a word character and the other is not.
 
 ### Back-references
+Backreferences match the same text as previously matched by a capturing group. In order to have back reference you would need a backslash to capture the group. Example: \1
 
 ### Look-ahead and Look-behind
+It is the collectively the lookaround, the start and end of line. Find only those matches for a pattern that are followed or preceded by another pattern. 
 
 ## Author
 
